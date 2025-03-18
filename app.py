@@ -174,7 +174,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
         outputs=[output_image, detection_table, summary_table, metrics_table]
     )
 
-
-# Launch the Gradio app
-if __name__ == "__main__":
-    demo.launch(share=True)
+demo.launch()
